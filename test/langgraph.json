@@ -1,0 +1,11 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "basic_bot": "./src/agent/basic_bot.py:graph",
+    "rag_bot": "./src/agent/rag_bot.py:graph",
+    "doc_rag_bot": "./src/agent/doc_rag_bot.py:graph"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}
